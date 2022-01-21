@@ -1,0 +1,41 @@
+.weeklyStats {
+	background-color: white;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	border-radius: 30px;
+	height: 300px;
+	text-align: center;
+	width: 520px;
+	padding: 20px;
+}
+
+.dailyStats {
+	background-color: white;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	border-radius: 30px;
+	height: 300px;
+	text-align: center;
+	width: 500px;
+	padding: 20px;
+	margin-left: 50px;
+}
+.container-charts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.width-auto {
+	width: auto;
+}
+
+.text-lg {
+	font-size: 2rem;
+}
+
+.carousel-indicators li {
+	border: none;
+	background: #ccc;
+}
+
+.carousel-indicators li.active {
+	background: #6e00ff;
+}
